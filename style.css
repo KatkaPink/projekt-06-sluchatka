@@ -114,6 +114,7 @@ h1 {
 
 .banner {
     min-height: 600px;
+    padding: 50px;
 }
 
 .banner-text {
@@ -127,7 +128,7 @@ h1 {
 .banner-foto {
     position: absolute;
     top: 105px;
-    left: 150px;
+    left: 200px;
 }
 
 .vlastnosti {
@@ -150,7 +151,7 @@ h1 {
 
 .vlastnost img {
     width: 50px;
-   /* float: left;*/ 
+   
 }
 
 .vlastnost a {
@@ -177,6 +178,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
     text-transform: none;
     size: 13px;
+ /* zarovnat na pravou stranu;*/ 
 }
 
 .paticka a {
