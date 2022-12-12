@@ -21,15 +21,14 @@ font-weight: 700;
     font-size: 15px; 
     line-height: 1.5;  
     max-width: 1140px; 
-   
 }
 
 .uvod {
-background-color: #f5f5f5;
+    background-color: #f5f5f5;
+    font-family: 'Open Sans', sans-serif;
 }
-  /*   padding: 50px; */
-
-
+  /*   padding: 50px; 
+*/
 h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
@@ -44,9 +43,6 @@ h1 {
 
 }
 
-.banner-text {
-    max-width: 420px;
-}
 
 .logo {
     position: relative;
@@ -86,6 +82,11 @@ h1 {
     padding: 5px;
 }
 
+.menu-tlacitka {
+    padding-top: 20px;
+    font-weight: 600;
+}
+
 .tlacitko-primarni {
     border: 1px solid #959595;
     border-radius: 5px;
@@ -109,7 +110,51 @@ h1 {
 .tlacitko-velke {
     font-size: 16px;
     font-weight: 600;
+}
 
+.banner {
+    min-height: 600px;
+}
+
+.banner-text {
+    max-width: 420px;
+}
+
+.minitext {
+    font-size: 13px;
+}
+
+.banner-foto {
+    position: absolute;
+    top: 105px;
+    left: 150px;
+}
+
+.vlastnosti {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.vlastnost {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 30px;
+    width: 40%;
+    
+}
+
+.vlastnost img {
+    width: 50px;
+   /* float: left;*/ 
+}
+
+.vlastnost a {
+    font-size: 13px;
 }
 
 .sekce-cerna {
@@ -117,14 +162,21 @@ h1 {
     color: #959595;
     display: flex;
     flex-direction: row;
+    size: 13px;
+}
+
+.paticka {
+    padding: 50px;
 }
 
 .paticka-menu {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: left;
     text-transform: uppercase;
     font-family: 'Rubik', sans-serif;
+    text-transform: none;
+    size: 13px;
 }
 
 .paticka a {
